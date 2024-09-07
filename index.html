@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="app.js"></script> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Today</title>
+</head>
+<body>
+    <header>
+        <h1>Tennis Today</h1>
+        <nav>
+            <ul>
+                <li> <a href="" class="navbutton">Home</a> </li>
+                <li> <a href="" class="navbutton">Pictures</a> </li>
+                <li> <a href="" class="navbutton">Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="main-content">
+            <aside>
+                <section>
+                    <h4>Filter by Tournament</h4>
+                    <nav>
+                        <ul>
+                        <li><a href="">Australian Open</a></li>
+                        <li><a href="">Roland Garros</a></li>
+                        <li><a href="">Wimbledon</a></li>
+                        <li><a href="">US Open</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h4>Active Men's Past Champions</h4>
+                    <nav>
+                        <ul>
+                        <li><a href="">Novak Djokovic</a></li>
+                        <li><a href="">Carlos Alcaraz</a></li>
+                        <li><a href="">Dominic Thiem</a></li>
+                        <li><a href="">Stan Wawrinka</a></li>
+                        <li><a href="">Rafael Nadal</a></li>
+                        <li><a href="">Marin Cilic</a></li>
+                        <li><a href="">Daniil Medvedev</a></li>
+                        </ul>
+                    </nav>
+                    <h4>Active Women's Past Champions</h4>
+                    <nav>
+                        <ul>
+                        <li><a href="">Sloane Stephens</a></li>
+                        <li><a href="">Naomi Osaka</a></li>
+                        <li><a href="">Bianca Andreescu</a></li>
+                        <li><a href="">Emma Raducanu</a></li>
+                        <li><a href="">Iga Swiatek</a></li>
+                        <li><a href="">Coco Gauff</a></li>
+                        <li><a href="">Venus Williams</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+            <div>
+                <article>
+                    <header>
+                        <h2>Who Is Going To Win The US Open?</h2>
+                        <h3>Written By Damian Burt</h3>
+                    </header>
+                    <main>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus porro quod accusamus maxime a quae explicabo distinctio, reprehenderit vero praesentium reiciendis quaerat quis id deserunt nulla expedita odit magni itaque nesciunt. Totam ad aspernatur recusandae atque, vel eum neque voluptates accusantium nemo voluptate maxime quo repudiandae deserunt quam, a debitis fugiat itaque necessitatibus magnam at! Quasi iusto sed voluptatem. Voluptate tenetur hic neque, ipsam dolorem, nobis quaerat nulla enim amet exercitationem reiciendis in nesciunt, rerum incidunt iste nemo dolor! Tenetur quaerat voluptates nobis fugiat exercitationem aliquid maiores recusandae, mollitia molestiae animi, aliquam totam dolore ullam corporis temporibus aut, obcaecati laborum.</p>
+                        <blockquote>
+                            "Never write off Djokovic" - <cite>Burt, 2024</cite>
+                        </blockquote>
+                    </main>
+                    <footer>
+                        <h2>Author: Damian Burt</h2>
+                        <img src="https://i.dailymail.co.uk/1s/2024/08/24/23/88899711-13776951-image-a-19_1724538236208.jpg" alt="An image of Carlos ALcaraz at the US Open" width="450" height="300">
+                        <img src="https://static.independent.co.uk/2023/11/06/02/05-08cb2ec54ee340eab394a1b8425a1dec.jpg" alt="An image of Iga Swiatek at the WTA finals" width="450" height="300">
+                        <h3>Date Written: 26/08/2024</h3>
+                        <a href="https://www.usopen.org/index.html" target="_blank">US Open Website</a>
+                    </footer>
+                </article>
+            </div>
+    
+
+        </div>
+      
+
+        <hr>
+        <h2>Who do you think will win?</h2>
+        <form action="" method="">
+            <label for="mens_winner">Men's US Open Winner:</label>
+            <input type="text" id="mens_winner" name="mens_winner" required>
+        
+
+            <br>
+        
+            <label for="womens_winner">Women's US Open Winner:</label>
+            <input type="text" id="womens_winner" name="womens_winner" required>
+        
+            <br>
+        
+            <label for="new_mens">New Men's Champion?</label>
+            <input type="radio" id="yes" name="new_mens required>
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="new_mens required>
+            <label for="no">No</label>
+
+            <br>
+            <label for="new_womens">New Women's Champion?</label>
+            <input type="radio" id="yes" name="new_womens required>
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="new_womens required>
+            <label for="no">No</label>
+        
+
+            <br>
+            <label for="men_sets_dropped">How many sets will they drop? (Men)</label>
+            <select name="men_sets_dropped" id="mens_sets_dropped">
+                <option value="0">None</option>
+                <option value="1">One</option>
+                <option value="2-3">Two or Three</option>
+                <option value="4-5">Four or Five</option>
+                <option value="5+">More than 5</option>
+            </select>
+        
+
+            <br>
+            <label for="women_sets_dropped">How many sets will they drop? (Women)</label>
+            <select name="women_sets_dropped" id="womens_sets_dropped">
+                <option value="0">None</option>
+                <option value="1">One</option>
+                <option value="2-3">Two or Three</option>
+                <option value="4-5">Four or Five</option>
+                <option value="5+">More than 5</option>
+            </select>
+        
+
+            <br>
+            <label for="bio">Why?</label>
+            <textarea name="bio" id="bio" cols="20" rows="2"></textarea>
+            <br>
+
+            <input type="submit" value="submit">
+
+
+        </form>
+
+        <hr>
+
+    </main>
+
+    <footer>
+        <h2>Tennis Today</h2>
+        <section>
+           <nav>
+            <ul id="footer-ul">
+                <div>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Contact</a></li>
+                </div>
+                <div>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Cookie Policy</a></li>
+                    <li><a href="">Feedback</a></li>
+                </div>
+                
+            </ul>
+           </nav>
+        </section>
+    </footer>
+</body>
+</html>
